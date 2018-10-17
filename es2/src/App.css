@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+button{outline: none;
+ cursor: pointer;
+ text-align: center;
+ text-decoration: none;
+ font: bold 12px Arial, Helvetica, sans-serif;
+ color: #fff;
+ padding: 10px 20px;
+ border: solid 1.6px #0076a3;
+ background: #0095cd;
+}
+input{padding: 9px 20px;
+border: solid 2px #0076a3;
+outline: none;
+ cursor: pointer;
+ text-align: center;
+ text-decoration: none;
+color:#0076a3;}
