@@ -35,7 +35,7 @@ class App extends Component {
     fetch(url)
 
       .then(response => response.json())
-      .then(data => this.setState({ term:'', img: data.data[0].images.fixed_height.url }))
+      .then(data => this.setState({ searchValue:'', img: data.data[0].images.fixed_height.url }))
       .catch(e => console.log('error', e));
 
   }
